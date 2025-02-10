@@ -1,0 +1,9 @@
+.qsys_edit
+db
+simulation
+incremental_db
+output_files
+*.sopcinfo
+*.rpt
+*.qws
+*.bak

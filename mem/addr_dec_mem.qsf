@@ -1,0 +1,73 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 14:56:10  November 01, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		addr_dec_mem_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY MAX7000S
+set_global_assignment -name DEVICE "EPM7032STC44-10"
+set_global_assignment -name TOP_LEVEL_ENTITY addr_dec_mem
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:56:10  NOVEMBER 01, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE addr_dec_mem.v
+set_global_assignment -name OPTIMIZE_HOLD_TIMING OFF
+set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING OFF
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name MAX7000_DEVICE_IO_STANDARD TTL
+set_location_assignment PIN_13 -to A[15]
+set_location_assignment PIN_12 -to A[14]
+set_location_assignment PIN_15 -to A[13]
+set_location_assignment PIN_18 -to A[12]
+set_location_assignment PIN_20 -to A[11]
+set_location_assignment PIN_22 -to A[10]
+set_location_assignment PIN_11 -to BOOT
+set_location_assignment PIN_44 -to RELOK
+set_location_assignment PIN_10 -to f7_q1
+set_location_assignment PIN_23 -to nROM1
+set_location_assignment PIN_30 -to nROM2
+set_location_assignment PIN_25 -to nROM3
+set_location_assignment PIN_27 -to nRS
+set_location_assignment PIN_31 -to nIAH
+set_location_assignment PIN_28 -to nDR
+set_location_assignment PIN_26 -to TCK
+set_location_assignment PIN_1 -to TDI
+set_location_assignment PIN_7 -to TMS
+set_location_assignment PIN_32 -to TDO
+
