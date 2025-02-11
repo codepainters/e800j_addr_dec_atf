@@ -8,5 +8,5 @@ In order to build the bitstreams you have to follow the following steps:
 * use Atmel's [pof2jed](https://www.microchip.com/en-us/development-tool/pof2jed) tool to convert `.pof` file into `.jed` (Jedec) file suitable for `ATF1502ASL`
 * use Atmel's [ATMISP](https://www.microchip.com/en-us/development-tool/atmisp) to convert `.jed` file to a `.svf` file (or program the chip, if you happen to have a ATMISP-compatible JTAG probe)
 
-Atmel tools are Windows-only, unfortunately (but work properly under [Wine](winehq.org)).
+Atmel tools are Windows-only, unfortunately (but work properly under [Wine](http://winehq.org)).
 
