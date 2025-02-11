@@ -15,3 +15,8 @@ Hardware files:
   * [addr\_dec\_atf.zip](gerbers/addr_dec_atf.zip) - single PCB
   * [addr\_dec\_atf\_panel.zip](gerbers/addr_dec_atf_panel.zip) - two PCBs panelized
 
+
+For bitstream files and programming instructions go to [bitstreams](bitstreams).
+
+Under [src](src) you can find Quartus projects for I/O and MEM decoders (look there for details).
+
